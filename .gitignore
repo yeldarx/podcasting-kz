@@ -4,6 +4,10 @@
 # Production
 /build
 
+#Disabled
+/blog
+/src/pages
+
 # Generated files
 .docusaurus
 .cache-loader

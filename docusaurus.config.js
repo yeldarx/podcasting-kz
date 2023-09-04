@@ -40,19 +40,21 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
+          // Please change this to your repo. 
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/podqaz/podqaz.github.io/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/podqaz/podqaz.github.io/tree/main/',
-        },
+        blog: false,
+        // {
+        //   //showReadingTime: true,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/podqaz/podqaz.github.io/tree/main/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -63,31 +65,50 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [{name: 'keywords', content: 'подкаст, подкаст деген не, Қазақстан, қазақша, подкастиң, подкастинг'}],
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Podcasting.kz',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Podcasting.kz логосы',
+          src: 'img/podcasting-kz.svg',
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            type: 'html',
             position: 'left',
-            label: 'Tutorial',
+            value: 'Подкастиң бойынша нұсқаулықтар мен білім қоры',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Нұсқаулықтар',
+          // },
+          // {to: '/blog', label: 'Блог', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/podqaz/podqaz.github.io/',
             label: 'GitHub',
             position: 'right',
           },
+          {
+            type: 'search',
+            position: 'right',
+          },
+
         ],
       },
+
+      docs: {
+        sidebar: {
+          hideable: true,
+          // autoCollapseCategories: true,
+        },
+      },
+
       footer: {
-        style: 'dark',
+        style: 'dark', /*
         links: [
           {
             title: 'Docs',
@@ -128,8 +149,8 @@ const config = {
               },
             ],
           },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        ], */
+        copyright: `Copyright © ${new Date().getFullYear()} Елдар Құдайбергеновтың жобасы.`,
       },
       prism: {
         theme: lightCodeTheme,

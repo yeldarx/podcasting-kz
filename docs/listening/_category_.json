@@ -1,0 +1,9 @@
+{
+  "label": "Подкаст тыңдау",
+
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Подкаст тыңдауға арналған бөлім."
+  }
+}
