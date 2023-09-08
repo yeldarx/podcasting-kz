@@ -7,6 +7,8 @@
 #Disabled
 /blog
 /src/pages
+/docs/_temp-page.md
+/coms.md
 
 # Generated files
 .docusaurus

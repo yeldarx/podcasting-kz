@@ -150,7 +150,7 @@ const config = {
             ],
           },
         ], */
-        copyright: `Copyright © ${new Date().getFullYear()} Елдар Құдайбергеновтың жобасы.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href=https://yeldar.org/>Елдар Құдайбергеновтың</a> жобасы.`,
       },
       prism: {
         theme: lightCodeTheme,
