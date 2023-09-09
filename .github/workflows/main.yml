@@ -1,32 +1,12 @@
-name: Deploy to GitHub Pages
-
-on:
-  push:
-    branches:
-      - main
+name: 🦕 Deploy Docusaurus to GitHub Pages
+on: [push]
 
 jobs:
   deploy:
-    name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci
-      - name: Build website
-        run: npm run build
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
-          user_name: github-actions[bot]
-          user_email: 41898282+github-actions[bot]@users.noreply.github.com
-          
-          # https://docusaurus.io/docs/deployment#triggering-deployment-with-github-actions
+      - uses: actions/checkout@v2
+      - uses: docuactions/github-pages@main
+        env:
+          DOCUACTIONS_TOKEN: ${{ secrets.DOCUACTIONS_TOKEN }}
+          DOCUACTIONS_DEPLOYMENT: ${{ secrets.DOCUACTIONS_DEPLOYMENT }}
