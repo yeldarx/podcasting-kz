@@ -106,9 +106,9 @@ const config = {
           // autoCollapseCategories: true,
         },
       },
-
+/*
       footer: {
-        style: 'dark', /*
+        style: 'dark',
         links: [
           {
             title: 'Docs',
@@ -149,9 +149,9 @@ const config = {
               },
             ],
           },
-        ], */
+        ], 
         copyright: `Copyright © ${new Date().getFullYear()} <a href=https://yeldar.org/>Елдар Құдайбергеновтың</a> жобасы.`,
-      },
+      }, */
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
