@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpodqaz=self.webpackChunkpodqaz||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u0421\u04d9\u043b\u0435\u043c, \u04d8\u043b\u0435\u043c!","permalink":"/blog/2023/09/03/salem-alem"}]}')}}]);
