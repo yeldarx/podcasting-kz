@@ -2,7 +2,7 @@
 /node_modules
 
 #Disabled
-/blog
+# /blog
 /src/pages
 /docs/_temp-doc.md
 /coms.md
