@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Подкастиң',
-  tagline: 'Білім қоры',
+  title: 'Подкастиң бойынша нұсқаулық',
+  tagline: 'Подкастиң бойынша Қазақ тіліндегі нұсқаулықтар сайты',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -47,14 +47,12 @@ const config = {
           editUrl:
             'https://github.com/podqaz/podqaz.github.io/tree/main/',
         },
-        blog: false,
-        // {
-        //   //showReadingTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl:
-        //     'https://github.com/podqaz/podqaz.github.io/tree/main/',
-        // },
+        blog: {
+          showReadingTime: false,
+          editUrl:
+            'https://github.com/podqaz/podqaz.github.io/tree/main/',
+        },
+
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -69,33 +67,28 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Podcasting.kz',
+        title: 'Подкастиң бойынша нұсқаулық',
         logo: {
           alt: 'Podcasting.kz логосы',
           src: 'img/podcasting-kz.svg',
         },
         items: [
-          {
-            type: 'html',
-            position: 'left',
-            value: 'Подкастиң бойынша нұсқаулықтар мен білім қоры',
-          },
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Нұсқаулықтар',
-          // },
-          // {to: '/blog', label: 'Блог', position: 'left'},
-          {
-            href: 'https://github.com/podqaz/podqaz.github.io/',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/blog', label: 'Блог', position: 'left'},
           {
             type: 'search',
             position: 'right',
           },
+          // {
+          //   type: 'html',
+          //   position: 'left', // right
+          //   value: 'text',
+          // },
+          // {
+          //   href: "https://github.com/podqaz/podqaz.github.io/",
+          //   position: "right",
+          //   className: "header-github-link",
+          //   "aria-label": "GitHub repository",
+          // },
 
         ],
       },
