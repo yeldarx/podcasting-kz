@@ -106,9 +106,23 @@ const config = {
           // autoCollapseCategories: true,
         },
       },
-/*
+
+      algolia: {
+        appId: '3OP00FEEYI',
+        apiKey: 'ae5a14db60e37e638a4cabb21fc2ccbb',
+        indexName: 'podcasting',
+        contextualSearch: true,
+        replaceSearchResultPathname: {
+          from: '/docs/',
+          to: '/',
+        },
+        searchPagePath: 'search',
+      },
+
+
+
       footer: {
-        style: 'dark',
+        style: 'dark', /*
         links: [
           {
             title: 'Docs',
@@ -149,9 +163,9 @@ const config = {
               },
             ],
           },
-        ], 
+        ], */
         copyright: `Copyright © ${new Date().getFullYear()} <a href=https://yeldar.org/>Елдар Құдайбергеновтың</a> жобасы.`,
-      }, */
+      }, 
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
