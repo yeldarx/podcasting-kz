@@ -4,6 +4,8 @@
 
 1. Қазақстан подкастар қоры: https://index.podcasting.center/episodes
 
-2. Қазақстан подкастар қорында жарияланған эпизодтар жарияланып тұратын тг-арна: https://t.me/podcastindex
+2. Қазақстан подкастар қорында жарияланған эпизодтар жарияланып тұратын Telegram-арна: https://t.me/podcastindex
 
-3. Қазақстан подкастар қорының rss-арнасы арқылы: https://index.podcasting.center/feed
+3. Қазақстан подкастар қорының RSS-арнасы арқылы: https://index.podcasting.center/feed
+
+4. Подкастың жаңа эпизодтарын поштаға алып тұруға болады: https://rssby.email
