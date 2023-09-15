@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpodcasting_kz=self.webpackChunkpodcasting_kz||[]).push([[159],{2535:e=>{e.exports=JSON.parse('{"permalink":"/podcasting-kz/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

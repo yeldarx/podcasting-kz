@@ -4,8 +4,8 @@
   <ShortName>Подкастиң бойынша нұсқаулық</ShortName>
   <Description>Search Подкастиң бойынша нұсқаулық</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://podcasting.kz/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://podcasting.kz/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://podcasting.kz/opensearch.xml" />
-  <moz:SearchForm>https://podcasting.kz/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://podcasting.kz/podcasting-kz/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://podcasting.kz/podcasting-kz/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://podcasting.kz/podcasting-kz/opensearch.xml" />
+  <moz:SearchForm>https://podcasting.kz/podcasting-kz/</moz:SearchForm>
 </OpenSearchDescription>
