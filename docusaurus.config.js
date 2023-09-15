@@ -14,7 +14,7 @@ const config = {
   url: 'https://podcasting.kz',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/podcasting-kz/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -48,9 +48,26 @@ const config = {
             'https://github.com/yeldarx/podcasting-kz/tree/main/',
         },
         blog: {
+          blogTitle: 'Блог',
+          blogSidebarTitle: 'Барлық посттар',
+          blogSidebarCount: 'ALL',
           showReadingTime: false,
           editUrl:
             'https://github.com/yeldarx/podcasting-kz/tree/main/',
+          feedOptions: {
+            type: 'rss',
+            title: 'Podcasting.kz блогы',
+            description: 'Подкастиң бойынша нұсқаулықтар жарияланатын сайттың блогы.',
+            copyright: '&copy Елдар Құдайбергенов',
+            language: 'kk-KK',
+            createFeedItems: async (params) => {
+              const {blogPosts, defaultCreateFeedItems, ...rest} = params;
+              return defaultCreateFeedItems({
+                blogPosts: blogPosts.filter((item, index) => index < 10),
+                ...rest,
+              });
+            },
+          },
         },
 
         theme: {
@@ -87,7 +104,7 @@ const config = {
         },
       },
 
-      algolia: {
+      /* algolia: {
         appId: '3OP00FEEYI',
         apiKey: 'ae5a14db60e37e638a4cabb21fc2ccbb',
         indexName: 'podcasting',
@@ -97,7 +114,7 @@ const config = {
           to: '/',
         },
         searchPagePath: 'search',
-      },
+      }, */
 
 
 
