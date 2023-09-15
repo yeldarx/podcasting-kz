@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Подкастиң бойынша нұсқаулық Blog</title>
+        <title>Podcasting.kz блогы</title>
         <link>https://podcasting.kz/blog</link>
-        <description>Подкастиң бойынша нұсқаулық Blog</description>
+        <description>Подкастиң бойынша нұсқаулықтар жарияланатын сайттың блогы.</description>
         <lastBuildDate>Sun, 03 Sep 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>kk</language>
+        <language>kk-KK</language>
+        <copyright>&amp;copy Елдар Құдайбергенов</copyright>
         <item>
             <title><![CDATA[Сәлем, Әлем!]]></title>
             <link>https://podcasting.kz/blog/2023/09/03/salem-alem</link>
