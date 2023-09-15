@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpodcasting_kz=self.webpackChunkpodcasting_kz||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"\u0411\u0430\u0440\u043b\u044b\u049b \u043f\u043e\u0441\u0442\u0442\u0430\u0440","items":[{"title":"\u0421\u04d9\u043b\u0435\u043c, \u04d8\u043b\u0435\u043c!","permalink":"/blog/2023/09/03/salem-alem"}]}')}}]);
