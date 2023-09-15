@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'podqaz', // Usually your GitHub org/user name.
-  projectName: 'podqaz.github.io', // Usually your repo name.
+  organizationName: 'yeldarx', // Usually your GitHub org/user name.
+  projectName: 'podcasting-kz', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: true,
 
@@ -30,8 +30,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'kk',
+    locales: ['kk'],
   },
 
   presets: [
@@ -63,7 +63,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      metadata: [{name: 'keywords', content: 'подкаст, подкаст деген не, Қазақстан, қазақша, подкастиң, подкастинг'}],
+      metadata: [{name: 'keywords', content: 'подкаст, подкастиң, подкаст деген не, Қазақстан, қазақша, подкастинг'}],
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
