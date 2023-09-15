@@ -45,12 +45,12 @@ const config = {
           // Please change this to your repo. 
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/podqaz/podqaz.github.io/tree/main/',
+            'https://github.com/yeldarx/podcasting-kz/tree/main/',
         },
         blog: {
           showReadingTime: false,
           editUrl:
-            'https://github.com/podqaz/podqaz.github.io/tree/main/',
+            'https://github.com/yeldarx/podcasting-kz/tree/main/',
         },
 
         theme: {
@@ -78,25 +78,12 @@ const config = {
             type: 'search',
             position: 'right',
           },
-          // {
-          //   type: 'html',
-          //   position: 'left', // right
-          //   value: 'text',
-          // },
-          // {
-          //   href: "https://github.com/podqaz/podqaz.github.io/",
-          //   position: "right",
-          //   className: "header-github-link",
-          //   "aria-label": "GitHub repository",
-          // },
-
         ],
       },
 
       docs: {
         sidebar: {
           hideable: true,
-          // autoCollapseCategories: true,
         },
       },
 
