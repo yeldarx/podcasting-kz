@@ -91,10 +91,11 @@ const config = {
         },
         items: [
           {to: '/blog', label: 'Блог', position: 'left'},
-          {
-            type: 'search',
-            position: 'right',
-          },
+          {to: '/contacts', label: 'Байланыс', position: 'left'},
+          // {
+          //   type: 'search',
+          //   position: 'right',
+          // },
         ],
       },
 
