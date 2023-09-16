@@ -17,5 +17,5 @@ authors: yeldar
 Жаңа посттарды поштаңызға алып отыру үшін [rssby.email][3] қызметін қолдансаңыз болады.
 
 [1]: https://yeldar.org/blog
-[2]: https://github.com/podqaz/podqaz.github.io
+[2]: https://github.com/yeldarx/podcasting-kz
 [3]: https://rssby.email/
